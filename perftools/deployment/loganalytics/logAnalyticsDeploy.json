@@ -39,6 +39,11 @@
       }
     }
 
+    "tags": {
+      "created-by": "DAC",
+      "created-date": $(date +%Y-%m-%d)
+    }
+
   },
   "variables": {
 

@@ -41,7 +41,7 @@
 
     "tags": {
       "created-by": "DAC",
-      "created-date": $(date +%Y-%m-%d)
+      "created-date": "$(date +%Y-%m-%d)"    
     }
 
   },

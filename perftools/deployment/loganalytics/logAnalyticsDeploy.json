@@ -147,10 +147,7 @@
       "name": "[parameters('workspaceName')]",
       "apiVersion": "2017-03-15-preview",
       "location": "[parameters('location')]",
-      "tags": {
-        "created-by": "[parameters('tags')]",
-        "created-date": "[parameters('tags')]"
-      },
+      "tags": "[parameters('tags')]",
       "properties": {
         "sku": {
           "name": "[parameters('serviceTier')]"
